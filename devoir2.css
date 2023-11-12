@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color:cornflowerblue;
+}
+
+header {
+    background-color:cornflowerblue;
+    color:lightblue;
+    text-align: center;
+    padding: 4em;
+}
+
+main {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.z {
+    background-color: #fff;
+    border: 1em solid #ddd;
+    padding: 5em;
+    margin: 1em;
+    text-align: center;
+}
+
+.z img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+   
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+  footer {
+    background-color:cornflowerblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
